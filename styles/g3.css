@@ -26,6 +26,9 @@
 .dark-gray{
     color: rgb(19, 19, 19);
 }
+.highlight{
+    color: rgb(255, 144, 14);
+}
 
 .bg-light{
     background-color: rgba(255, 144, 14, 0.1);
@@ -44,6 +47,9 @@
     border-radius: 8px;
 
 }
+main > section{
+    margin-top: 130px;
+} 
 
 /* header style */
 
@@ -104,4 +110,48 @@
         gap: 20px;
         
     }
-}   
+}  
+
+
+
+
+/*******section- Our Features********/
+
+.our-features{
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.our-features-content{
+    align-items: center;
+    width: 537px;
+}
+.our-features-content h3{
+    font-size: 2.813rem;
+    line-height: 53px;
+    margin-bottom: 0;
+}
+.quick-list{
+    font-weight: 500;
+}
+.of-our{
+    font-weight: 700;
+}
+.features{
+    font-weight: 700;
+}
+.our-features-content p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.our-features-img-box{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-right: 73px;
+}
+
