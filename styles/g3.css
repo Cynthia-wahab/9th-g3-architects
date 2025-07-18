@@ -9,16 +9,89 @@
 }
 
 
-/* navbar style */
-nav{
+
+
+/*********** shared style **********/
+.display-flex {
     display: flex;
-    justify-content: space-between;
 }
-nav ul li {
-    list-style: none;
+/* dark-2 */
+.text-gray{
+    color: rgb(66, 66, 66);
+}
+/* dark-3 */
+.light-gray{
+    color: rgb(114, 114, 114);
+}
+.dark-gray{
+    color: rgb(19, 19, 19);
+}
+
+.bg-light{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.btn-primary{
+    background-color: rgb(255, 144, 14);
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 600px;
+    padding: 20px 25px;
+    border: none;
+    border-radius: 8px;
+
+}
+
+/* header style */
+
+
+/* navbar style */
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+.brand-name{
+    font-size: 3rem;
+    font-weight: 700;
 }
 .nav-item{
-    display: flex;
-    gap: 20px;
-    justify-content: space-evenly;
+    list-style: none;
+    margin-right: 30px;
+}
+.nav-item a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+.nav-links{
+    /* gap: 30px; */
+}
+
+/* banner style */
+.banner-content{
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+.banner-content .banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.banner-description{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.banner-content img{
+    width: 100%;
+    height: 700px;
+    padding-bottom: 45px;
+}
+.banner-description{
+    margin-bottom: 32px;
 }
