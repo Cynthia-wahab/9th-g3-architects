@@ -154,4 +154,24 @@ main > section{
     gap: 24px;
     margin-right: 73px;
 }
+@media screen and (max-width: 576px) {
+    main > section{
+        margin-top: 20px;
+    }
+    .our-features{
+        flex-direction: column-reverse;
+    }
+    .our-features-content{
+        width: 100%;
+        
+    }
+    .our-features-img-box{
+        grid-template-columns: auto;
+        margin-top: 40px;
+        margin-right: 0;
+    }
+    .our-features-img-box img{
+        width: 100%;
+    }
+}
 
